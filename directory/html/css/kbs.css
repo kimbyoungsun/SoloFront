@@ -13,3 +13,47 @@
   left: 50% !important;
   transform: translate(-50%, -50%) !important;
 }
+.text-solo-1 {
+  color: rgb(216, 234, 97, 0.6) !important;
+}
+
+.text-solo-2 {
+  color: #d8ea61 !important;
+}
+
+.text-solo-3 {
+  color: rgb(148, 207, 76, 0.6) !important;
+}
+.text-solo-4 {
+  color: #94cf4c !important;
+}
+.text-solo-5 {
+  color: #50a78b !important;
+}
+.text-solo-6 {
+  color: #0b3d2d !important;
+}
+
+.bg-solo-1 {
+  background-color: rgb(216, 234, 97, 0.6) !important;
+}
+.bg-solo-2 {
+  background-color: #d8ea61 !important;
+}
+.bg-solo-3 {
+  background-color: rgb(148, 207, 76, 0.6) !important;
+}
+.bg-solo-4 {
+  background-color: #94cf4c !important;
+}
+.bg-solo-5 {
+  background-color: #50a78b !important;
+}
+.bg-solo-6 {
+  background-color: #0b3d2d !important;
+}
+
+.my-slider {
+  position: absolute;
+  width: 33%;
+}

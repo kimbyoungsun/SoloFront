@@ -7,6 +7,21 @@
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="robots" content="all,follow" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- 노토 산스-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap"
+      rel="stylesheet"
+    />
+    <!-- 나눔스퀘어 -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@2.0/nanumsquare.css"
+    />
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <!-- Price Slider Stylesheets -->
     <link rel="stylesheet" href="vendor/nouislider/nouislider.css" />
     <!-- Google fonts - Playfair Display-->
@@ -30,6 +45,8 @@
     <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet" />
     <!-- Custom stylesheet - for your changes-->
     <link rel="stylesheet" href="css/custom.css" />
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="css/kbs.css" />
     <!-- Favicon-->
     <link rel="shortcut icon" href="img/favicon.png" />
     <!-- Tweaks for older IEs-->
@@ -199,10 +216,12 @@
       </div>
       <div class="container py-6 py-md-7 text-white z-index-20">
         <div class="row">
-          <div class="col-xl-6 mt-3">
+          <div class="col-xl-6 mt-5">
             <div class="text-center text-lg-start">
-              <h1 class="display-3 fw-bold text-shadow">도와줘요!</h1>
-              <h1 class="display-3 fw-bold text-shadow">반려동물 임보 위탁</h1>
+              <h1 class="display-3 fw-bold text-shadow">
+                <div>자취하는 당신</div>
+                <div>생활력은 월장!</div>
+              </h1>
             </div>
             <div class="p-lg-1 ps-lg-4">
               <form action="#" class="search-bar row">
@@ -229,336 +248,451 @@
           <div class="col text-center">
             <img
               class="figure position-relative"
-              src="img/kbs/petwalk_image.png"
-              style="width: 30rem; left: 6.25rem"
+              src="img/kbs/maintheme.png"
+              style="width: 35rem"
               alt=""
             />
           </div>
         </div>
       </div>
     </section>
-
+    <!-- 라이프 -->
     <section>
-      <div class="container">
-        <div class="row mt-5">
-          <div class="col-sm-3">
-            <div class="px-3 py-3 border border-1 rounded-3">
-              <form class="border-1 rounded-3" action="">
-                <label class="form-label">뭐가 좋을까?</label>
-                <ul class="list-unstyled mb-0">
-                  <li>
-                    <div class="form-check">
-                      <input
-                        class="form-check-input"
-                        type="checkbox"
-                        name="sports"
-                        id="soccer"
-                      />
-                      <label class="form-check-label" for="soccer">
-                        이거는
-                      </label>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="form-check">
-                      <input
-                        class="form-check-input"
-                        type="checkbox"
-                        name="sports"
-                        id="pingPong"
-                      />
-                      <label class="form-check-label" for="pingPong">
-                        고민을
-                      </label>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="form-check">
-                      <input
-                        class="form-check-input"
-                        type="checkbox"
-                        name="sports"
-                        id="footVolleyball"
-                      />
-                      <label class="form-check-label" for="footVolleyball">
-                        해봐야
-                      </label>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="form-check">
-                      <input
-                        class="form-check-input"
-                        type="checkbox"
-                        name="sports"
-                        id="tennis"
-                      />
-                      <label class="form-check-label" for="tennis">
-                        할 것
-                      </label>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="form-check">
-                      <input
-                        class="form-check-input"
-                        type="checkbox"
-                        name="sports"
-                        id="baseball"
-                      />
-                      <label class="form-check-label" for="baseball">
-                        같아요
-                      </label>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="form-check">
-                      <input
-                        class="form-check-input"
-                        type="checkbox"
-                        name="sports"
-                        id="badminton"
-                      />
-                      <label class="form-check-label" for="badminton">
-                        그죠?
-                      </label>
-                    </div>
-                  </li>
-                </ul>
-                <label class="form-label">요금</label>
-                <ul class="list-unstyled mb-0">
-                  <li>
-                    <div class="form-check">
-                      <input
-                        class="form-check-input"
-                        type="checkbox"
-                        name="price"
-                        id="notfree"
-                      />
-                      <label class="form-check-label" for="notfree">
-                        유료
-                      </label>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="form-check">
-                      <input
-                        class="form-check-input"
-                        type="checkbox"
-                        name="price"
-                        id="free"
-                      />
-                      <label class="form-check-label" for="free"> 무료 </label>
-                    </div>
-                  </li>
-                </ul>
-              </form>
+      <div class="container my-5">
+        <div class="h3 fw-bold text-solo-6">라이프</div>
+        <div class="h5 fw-bold text-solo-5">
+          혼자 살면 재미없다? 누구보다 알차게 삶을 즐기는 당신을 위한
+          라이프스타일
+        </div>
+
+        <div class="row">
+          <div class="col d-flex">
+            <div class="card border-0 bg-solo-1">
+              <div class="container">
+                <div class="mt-3 ms-3 fw-bold">슬기로운 문화생활</div>
+                <div class="mt-3 ms-3 h4 fw-bold">공연</div>
+                <div class="text-end">
+                  <img
+                    class="card-img-bottom mt-5 mb-3 mx-2"
+                    src="img/kbs/music 1.png"
+                    alt="Card image cap"
+                    style="width: 70% !important"
+                  />
+                </div>
+              </div>
             </div>
           </div>
-          <div class="col">
-            <div class="container">
-              <div class="btn-group">
-                <button
-                  type="button"
-                  class="btn btn-light dropdown-toggle border border-1 rounded-pill"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  서비스
-                </button>
-                <div class="dropdown-menu">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Separated link</a>
-                </div>
-              </div>
-              <div class="btn-group">
-                <button
-                  type="button"
-                  class="btn btn-light dropdown-toggle border border-1 rounded-pill"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  지역
-                </button>
-                <div class="dropdown-menu">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Separated link</a>
+          <div class="col d-flex">
+            <div class="card border-0 bg-solo-2">
+              <div class="container">
+                <div class="mt-3 ms-3 fw-bold">가장 편안한 영화관, 우리집</div>
+                <div class="mt-3 ms-3 h4 fw-bold">OTT</div>
+                <div class="text-end">
+                  <img
+                    class="card-img-bottom mt-5 mb-3 mx-2"
+                    src="img/kbs/tv 1.png"
+                    alt="Card image cap"
+                    style="width: 70% !important"
+                  />
                 </div>
               </div>
             </div>
-
-            <div>
-              <a class="text-decoration-none text-dark" href="#">
-                <h6 class="mt-2 mb-1">[공지사항] 커뮤니티 제목입니다.</h6>
-                <div class="mb-2"></div>
-                <p class="text-muted text-sm">
-                  내용은 다음과 같습니다. 어쩌구 저쩌구 내용을 채우기 위해
-                  열심히 쓰는중입니다. 다들 화이팅!
-                </p>
-                <p class="text-muted text-sm">지역: 서울/마포구</p>
-              </a>
-              <div class="row">
-                <a class="col" href="thumbsUpCount++">
-                  <i class="fa fa-thumbs-up text-muted">
-                    좋아요 thumbsUpCount</i
-                  >
-                </a>
-                <a class="col" href="replyCount++">
-                  <i class="fa fa-comment-dots text-muted"> 댓글 replyCount</i>
-                </a>
-                <div class="text-muted text-sm text-end col">
-                  currentTime - createTime
+          </div>
+          <div class="col d-flex">
+            <div class="card border-0 bg-solo-3">
+              <div class="container">
+                <div class="mt-3 ms-3 fw-bold">동네 맛집은 내가 접수한다</div>
+                <div class="mt-3 ms-3 h4 fw-bold">식당 · 카페</div>
+                <div class="text-end">
+                  <img
+                    class="card-img-bottom mt-5 mb-3 mx-2"
+                    src="img/kbs/cutlery 1.png"
+                    alt="Card image cap"
+                    style="width: 70% !important"
+                  />
                 </div>
               </div>
             </div>
-            <div>
-              <a class="text-decoration-none text-dark" href="#">
-                <h6 class="mt-2 mb-1">[공지사항] 커뮤니티 제목입니다.</h6>
-                <div class="mb-2"></div>
-                <p class="text-muted text-sm">
-                  내용은 다음과 같습니다. 어쩌구 저쩌구 내용을 채우기 위해
-                  열심히 쓰는중입니다. 다들 화이팅!
-                </p>
-                <p class="text-muted text-sm">지역: 서울/마포구</p>
-              </a>
-              <div class="row">
-                <a class="col" href="thumbsUpCount++">
-                  <i class="fa fa-thumbs-up text-muted">
-                    좋아요 thumbsUpCount</i
-                  >
-                </a>
-                <a class="col" href="replyCount++">
-                  <i class="fa fa-comment-dots text-muted"> 댓글 replyCount</i>
-                </a>
-                <div class="text-muted text-sm text-end col">
-                  currentTime - createTime
+          </div>
+          <div class="col d-flex">
+            <div class="card border-0 bg-solo-4">
+              <div class="container">
+                <div class="mt-3 ms-3 fw-bold">늘어나는 체력, 커지는 행복</div>
+                <div class="mt-3 ms-3 h4 fw-bold">생활체육</div>
+                <div class="text-end">
+                  <img
+                    class="card-img-bottom mt-5 mb-3 mx-2"
+                    src="img/kbs/sports 1.png"
+                    alt="Card image cap"
+                    style="width: 70% !important"
+                  />
                 </div>
               </div>
             </div>
-            <div>
-              <a class="text-decoration-none text-dark" href="#">
-                <h6 class="mt-2 mb-1">[공지사항] 커뮤니티 제목입니다.</h6>
-                <div class="mb-2"></div>
-                <p class="text-muted text-sm">
-                  내용은 다음과 같습니다. 어쩌구 저쩌구 내용을 채우기 위해
-                  열심히 쓰는중입니다. 다들 화이팅!
-                </p>
-                <p class="text-muted text-sm">지역: 서울/마포구</p>
-              </a>
-              <div class="row">
-                <a class="col" href="thumbsUpCount++">
-                  <i class="fa fa-thumbs-up text-muted">
-                    좋아요 thumbsUpCount</i
-                  >
-                </a>
-                <a class="col" href="replyCount++">
-                  <i class="fa fa-comment-dots text-muted"> 댓글 replyCount</i>
-                </a>
-                <div class="text-muted text-sm text-end col">
-                  currentTime - createTime
-                </div>
-              </div>
-            </div>
-            <div>
-              <a class="text-decoration-none text-dark" href="#">
-                <h6 class="mt-2 mb-1">[공지사항] 커뮤니티 제목입니다.</h6>
-                <div class="mb-2"></div>
-                <p class="text-muted text-sm">
-                  내용은 다음과 같습니다. 어쩌구 저쩌구 내용을 채우기 위해
-                  열심히 쓰는중입니다. 다들 화이팅!
-                </p>
-                <p class="text-muted text-sm">지역: 서울/마포구</p>
-              </a>
-              <div class="row">
-                <a class="col" href="thumbsUpCount++">
-                  <i class="fa fa-thumbs-up text-muted">
-                    좋아요 thumbsUpCount</i
-                  >
-                </a>
-                <a class="col" href="replyCount++">
-                  <i class="fa fa-comment-dots text-muted"> 댓글 replyCount</i>
-                </a>
-                <div class="text-muted text-sm text-end col">
-                  currentTime - createTime
-                </div>
-              </div>
-            </div>
-            <div>
-              <a class="text-decoration-none text-dark" href="#">
-                <h6 class="mt-2 mb-1">[공지사항] 커뮤니티 제목입니다.</h6>
-                <div class="mb-2"></div>
-                <p class="text-muted text-sm">
-                  내용은 다음과 같습니다. 어쩌구 저쩌구 내용을 채우기 위해
-                  열심히 쓰는중입니다. 다들 화이팅!
-                </p>
-                <p class="text-muted text-sm">지역: 서울/마포구</p>
-              </a>
-              <div class="row">
-                <a class="col" href="thumbsUpCount++">
-                  <i class="fa fa-thumbs-up text-muted">
-                    좋아요 thumbsUpCount</i
-                  >
-                </a>
-                <a class="col" href="replyCount++">
-                  <i class="fa fa-comment-dots text-muted"> 댓글 replyCount</i>
-                </a>
-                <div class="text-muted text-sm text-end col">
-                  currentTime - createTime
-                </div>
-              </div>
-            </div>
-            <div>
-              <a class="text-decoration-none text-dark" href="#">
-                <h6 class="mt-2 mb-1">[공지사항] 커뮤니티 제목입니다.</h6>
-                <div class="mb-2"></div>
-                <p class="text-muted text-sm">
-                  내용은 다음과 같습니다. 어쩌구 저쩌구 내용을 채우기 위해
-                  열심히 쓰는중입니다. 다들 화이팅!
-                </p>
-                <p class="text-muted text-sm">지역: 서울/마포구</p>
-              </a>
-              <div class="row">
-                <a class="col" href="thumbsUpCount++">
-                  <i class="fa fa-thumbs-up text-muted">
-                    좋아요 thumbsUpCount</i
-                  >
-                </a>
-                <a class="col" href="replyCount++">
-                  <i class="fa fa-comment-dots text-muted"> 댓글 replyCount</i>
-                </a>
-                <div class="text-muted text-sm text-end col">
-                  currentTime - createTime
+          </div>
+          <div class="col d-flex">
+            <div class="card border-0 bg-solo-5">
+              <div class="container">
+                <div class="mt-3 ms-3 fw-bold">책은 마음의 양식!</div>
+                <div class="mt-3 ms-3 h4 fw-bold">도서</div>
+                <div class="text-end">
+                  <img
+                    class="card-img-bottom mt-5 mb-3 mx-2"
+                    src="img/kbs/book-stack 1.png"
+                    alt="Card image cap"
+                    style="width: 70% !important"
+                  />
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+    </section>
+    <!-- 1인가구 프로그램-->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="h3 fw-bold col text-solo-6">1인가구 프로그램</div>
+          <div class="col text-end">더보기</div>
+        </div>
+        <div>
+          <div class="row">
+            <div class="col d-flex">
+              <div class="container">
+                <div class="">
+                  <img
+                    class="figure figure-img"
+                    src="img/kbs/Rectangle 51.png"
+                    alt="Card image cap"
+                    style="width: 100% !important"
+                  />
+                </div>
+                <div class="fw-bold h5">경기도 청년 1인가구 지원사업</div>
+                <div class="fw-bold text-solo-6">2023.05.18. ~ 2023.06.04.</div>
+                <div class="fw-bold text-solo-6">경기도</div>
+              </div>
+            </div>
+            <div class="col d-flex">
+              <div class="container">
+                <div class="">
+                  <img
+                    class="figure figure-img"
+                    src="img/kbs/Rectangle 52.png"
+                    alt="Card image cap"
+                    style="width: 100% !important"
+                  />
+                </div>
+                <div class="fw-bold h5">1인가구 생활 밀착형 프로그램</div>
+                <div class="fw-bold text-solo-6">2023.05.18. ~ 2023.06.04.</div>
+                <div class="fw-bold text-solo-6">경기도</div>
+              </div>
+            </div>
+            <div class="col d-flex">
+              <div class="container">
+                <div class="">
+                  <img
+                    class="figure figure-img"
+                    src="img/kbs/Rectangle 53.png"
+                    alt="Card image cap"
+                    style="width: 100% !important"
+                  />
+                </div>
+                <div class="fw-bold h5">동일이네 행복한 밥상</div>
+                <div class="fw-bold text-solo-6">2023.05.18. ~ 2023.06.04.</div>
+                <div class="fw-bold text-solo-6">경기도</div>
+              </div>
+            </div>
+            <div class="col d-flex">
+              <div class="container">
+                <div class="">
+                  <img
+                    class="figure figure-img"
+                    src="img/kbs/Rectangle 54.png"
+                    alt="Card image cap"
+                    style="width: 100% !important"
+                  />
+                </div>
+                <div class="fw-bold h5">1인가구 친구찾기 PET-프킬라</div>
+                <div class="fw-bold text-solo-6">2023.05.18. ~ 2023.06.04.</div>
+                <div class="fw-bold text-solo-6">경기도</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="position-relative"
+        style="
+          background-color: rgb(216, 234, 97);
+          width: 100%;
+          height: 300px;
+          top: -17.5rem;
+          z-index: -1;
+        "
+      ></div>
+    </section>
 
-      <!-- page button-->
-      <nav aria-label="Page navigation example ">
-        <ul
-          class="pagination pagination-template d-flex justify-content-center my-5"
+    <!--동네 거래 및 동네 핫스팟-->
+    <section style="margin-top: -250px">
+      <div class="container my-10 py-10">
+        <div class="row">
+          <div class="col">
+            <div class="text-center h1 text-solo-6">동네 거래</div>
+            <div class="text-center fw-bold text-solo-5">
+              우리 동네에서 현명하게 살아가는 세 가지 방법
+            </div>
+            <div class="text-center fw-bold text-solo-5">
+              중고/재능 거래부터 반려동물 위탁까지!
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="text-center h1 fw-bold text-solo-6">동네 핫스팟</div>
+            <div class="text-center fw-bold text-solo-5">
+              요즘 우리 동네에서 사람들이 많이 찾는 곳은 어딜까?
+            </div>
+          </div>
+        </div>
+
+        <div class="row pb-7">
+          <div class="col pt-4">
+            <div class="text-center">
+              <span
+                class="btn bg-solo-5 nav-fill my-2"
+                style="width: 21.875rem; vertical-align: middle"
+              >
+                <ul class="nav" style="vertical-align: middle">
+                  <li class="d-flex mx-2">
+                    <div class="fa fa-3x fa-shopping-bag mx-2"></div>
+                  </li>
+                  <li class="nav-justified mx-2">
+                    <div class="text-start text-light card-text">
+                      <span class="h6 fw-bold">동네 중고 거래</span>
+                      <br />
+                      <span class="fw-normal">진행 중인 거래 51건</span>
+                    </div>
+                  </li>
+                  <li class="ms-4 text-end">
+                    <div class="fa fa-3x fa-arrow-circle-right text-end"></div>
+                  </li>
+                </ul>
+              </span>
+
+              <span
+                class="btn bg-solo-5 nav-fill my-2"
+                style="width: 21.875rem; vertical-align: middle"
+              >
+                <ul class="nav" style="vertical-align: middle">
+                  <li class="d-flex mx">
+                    <div class="fa fa-3x fa-hands-helping mx-2"></div>
+                  </li>
+                  <li class="nav-justified mx-2">
+                    <div class="text-start text-light card-text">
+                      <span class="h6 fw-bold">반려동물 임보 위탁</span>
+                      <br />
+                      <span class="">진행 중인 거래 51건</span>
+                    </div>
+                  </li>
+                  <li class="ms-4 text-end">
+                    <div class="fa fa-3x fa-arrow-circle-right text-end"></div>
+                  </li>
+                </ul>
+              </span>
+
+              <span
+                class="btn bg-solo-5 nav-fill my-2"
+                style="width: 21.875rem; vertical-align: middle"
+              >
+                <ul class="nav" style="vertical-align: middle">
+                  <li class="d-flex mx-2">
+                    <div class="fa fa-3x fa-baby mx-2"></div>
+                  </li>
+                  <li class="nav-justified mx-2">
+                    <div class="text-start text-light card-text">
+                      <span class="h6 fw-bold card-text"
+                        >반려동물 임보 위탁</span
+                      >
+                      <br />
+                      <span class="card-text">진행 중인 거래 51건</span>
+                    </div>
+                  </li>
+                  <li class="ms-4 text-end">
+                    <div class="fa fa-3x fa-arrow-circle-right text-end"></div>
+                  </li>
+                </ul>
+              </span>
+            </div>
+          </div>
+          <div class="col">
+            <div class="swiper-container my-slider mx-n2">
+              <div class="swiper-wrapper pb-5 ms-3">
+                <div class="swiper-slide h-auto px-2">
+                  <div
+                    class="card card-poster gradient-overlay hover-animate mb-4 mb-lg-0"
+                  >
+                    <a class="tile-link" href="category.html"></a
+                    ><img
+                      class="bg-image"
+                      src="img/photo/new-york.jpg"
+                      alt="Card image"
+                    />
+                    <div class="card-body overlay-content">
+                      <h6 class="card-title text-shadow text-uppercase">
+                        New York
+                      </h6>
+                      <p class="card-text text-sm">The big apple</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide h-auto px-2">
+                  <div
+                    class="card card-poster gradient-overlay hover-animate mb-4 mb-lg-0"
+                  >
+                    <a class="tile-link" href="category.html"></a
+                    ><img
+                      class="bg-image"
+                      src="img/photo/new-york.jpg"
+                      alt="Card image"
+                    />
+                    <div class="card-body overlay-content">
+                      <h6 class="card-title text-shadow text-uppercase">
+                        New York
+                      </h6>
+                      <p class="card-text text-sm">The big apple</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 지역별 공공 임대 주택 정보-->
+    <section>
+      <div class="container my-5">
+        <div class="row">
+          <div class="col h1 fw-bold text-solo-6">지역별 공공임대주택 정보</div>
+          <div class="col text-end">더보기</div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <img width="100%" src="img/kbs/RentalMap.png" alt="" />
+        <div
+          class="btn btn-danger position-relative"
+          style="top: -4.5625rem; left: 26.25rem"
         >
-          <li class="page-item">
-            <a class="page-link" href="#"> <i class="fa fa-angle-left"></i></a>
-          </li>
-          <li class="page-item active"><a class="page-link" href="#">1</a></li>
-          <li class="page-item"><a class="page-link" href="#">2</a></li>
-          <li class="page-item"><a class="page-link" href="#">3</a></li>
-          <li class="page-item">
-            <a class="page-link" href="#"> <i class="fa fa-angle-right"></i></a>
-          </li>
-        </ul>
-      </nav>
+          서울
+        </div>
+
+        <div
+          class="btn btn-danger position-relative"
+          style="top: -8.75rem; left: 3.125rem"
+        >
+          인천
+        </div>
+
+        <div
+          class="btn btn-danger position-relative"
+          style="top: -12.25rem; left: 36.0625rem"
+        >
+          경기
+        </div>
+
+        <div
+          class="btn btn-danger position-relative"
+          style="top: -27.6875rem; left: 6.0625rem"
+        >
+          강원
+        </div>
+
+        <div
+          class="btn btn-danger position-relative"
+          style="top: -17.3125rem; left: 49.625rem"
+        >
+          대전
+        </div>
+
+        <div
+          class="btn btn-danger position-relative"
+          style="top: -33.125rem; left: 45.625rem"
+        >
+          울산
+        </div>
+
+        <div
+          class="btn btn-danger position-relative"
+          style="top: -27.75rem; left: 54.25rem"
+        >
+          대구
+        </div>
+
+        <div
+          class="btn btn-danger position-relative"
+          style="top: -4.5rem; left: 48.25rem"
+        >
+          광주
+        </div>
+
+        <div
+          class="btn btn-danger position-relative"
+          style="top: -10.1875rem; left: 70.1875rem"
+        >
+          제주
+        </div>
+
+        <div
+          class="btn btn-danger position-relative"
+          style="top: -29.1875rem; left: 64.25rem"
+        >
+          부산
+        </div>
+      </div>
+    </section>
+
+    <!-- 뉴스 및 이주의 추천 영화-->
+    <section>
+      <div class="container my-5">
+        <div class="row">
+          <div class="col h3 fw-bold text-solo-6">1인 가구 관련 뉴스</div>
+          <div class="col text-end">더보기</div>
+          <div class="col-6"></div>
+        </div>
+
+        <div class="row">
+          <div class="col my-3">
+            <div>광주 동구 1인 가구 위한 요리 레시피 북 발간</div>
+            <div>광주 동구 1인 가구 위한 요리 레시피 북 발간</div>
+            <div>광주 동구 1인 가구 위한 요리 레시피 북 발간</div>
+            <div>광주 동구 1인 가구 위한 요리 레시피 북 발간</div>
+            <div>광주 동구 1인 가구 위한 요리 레시피 북 발간</div>
+            <div>광주 동구 1인 가구 위한 요리 레시피 북 발간</div>
+            <div>광주 동구 1인 가구 위한 요리 레시피 북 발간</div>
+            <div>광주 동구 1인 가구 위한 요리 레시피 북 발간</div>
+            <div>광주 동구 1인 가구 위한 요리 레시피 북 발간</div>
+          </div>
+          <div class="col position-relative" style="top: -50px">
+            <ul class="list-group">
+              <li class="list-group-item border-0">
+                <img
+                  class="mx-2"
+                  src="img/kbs/341036e74155a49eb4281dab 1.png"
+                  style="width: 280px"
+                  alt=""
+                />
+                <img
+                  class="mx-2"
+                  src="img/kbs/341036e74155a49eb4281dab 2.png"
+                  style="width: 280px"
+                  alt=""
+                />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </section>
 
     <footer class="position-relative z-index-10 d-print-none">
@@ -752,5 +886,6 @@
     </script>
     <!-- Main Theme JS file    -->
     <script src="js/theme.js"></script>
+    <script src="js/kbs.js"></script>
   </body>
 </html>
