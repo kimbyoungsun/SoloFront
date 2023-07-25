@@ -198,3 +198,11 @@
   .text-custom:hover {
     color: #50a78b !important;
   }
+
+  .icon-lg-custom {
+    width: 3.5rem;
+    height: 3.5rem;
+    line-height: 3.5rem;
+    text-align: center;
+    font-size: 1.2rem;
+  }
