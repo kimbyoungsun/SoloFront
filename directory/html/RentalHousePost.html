@@ -10,17 +10,6 @@
     <!-- Price Slider Stylesheets -->
     <link rel="stylesheet" href="vendor/nouislider/nouislider.css" />
     <!-- Google fonts - Playfair Display-->
-    <!-- 노토 산스-->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap"
-      rel="stylesheet"
-    />
-    <!-- 나눔스퀘어 -->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@2.0/nanumsquare.css"
-    />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700"
@@ -35,8 +24,6 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/css/swiper.min.css"
     />
-
-    <link rel="stylesheet" href="css/kbs.css" />
     <!-- Magnigic Popup-->
     <link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.css" />
     <!-- theme stylesheet-->
@@ -59,170 +46,6 @@
     />
   </head>
   <body style="padding-top: 72px">
-    <section>
-      <!-- Modal -->
-      <div
-        id="modal"
-        class="modal fade"
-        tabindex="-1"
-        role="dialog"
-        aria-hidden="true"
-      >
-        <div id="modal-dialog" class="modal-dialog modal-xl" role="document">
-          <div class="modal-content">
-            <div class="modal-body">
-              <iframe
-                id="iframe"
-                src=""
-                frameborder="3"
-                width="100%"
-                height="700px"
-              ></iframe>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section>
-      <!-- ModalInfo -->
-      <div
-        class="modal fade"
-        id="modalInfo"
-        tabindex="-1"
-        role="dialog"
-        aria-labelledby="exampleModalLongTitle"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog modal-xl" role="document">
-          <div class="modal-content">
-            <div
-              class="modal-header rounded-3"
-              style="height: 600px; background: black"
-            >
-              <img
-                class="bg-image opacity-4"
-                src="https://image.tmdb.org/t/p/original/27u4kBGGOQLqizEudJAOWMkvhip.jpg"
-                alt=""
-              />
-
-              <div class="row opacity-100 z-index-50">
-                <div class="col-8">
-                  <span
-                    class="position-relative text-black rounded-3 h4"
-                    style="top: 40%; left: 5%; background-color: gainsboro"
-                  >
-                    7.3
-                  </span>
-                  <div
-                    class="position-relative display-2 text-light"
-                    style="top: 40%"
-                  >
-                    Fast X
-                  </div>
-                  <div class="position-relative text-light" style="top: 40%">
-                    돔과 그의 패밀리 앞에 나타난 운명의 적 단테. 과거의 그림자는
-                    돔의 모든 것을 파괴하기 위해 달려온다. 단테에 의해 산산히
-                    흩어진 패밀리들은 모두 목숨을 걸고 맞서야 하는 함정에 빠지고
-                    마는데...
-                  </div>
-                </div>
-                <div class="col">
-                  <img
-                    class=""
-                    src="https://image.tmdb.org/t/p/original/wXNihLltMCGR7XepN39syIlCt5X.jpg"
-                    alt=""
-                    style="width: 100%"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="modal-content">
-            <div class="modal-body text-center">
-              <iframe
-                id="iframe1"
-                class="rounded-3"
-                width="100%"
-                height="600"
-                src=""
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen
-              ></iframe>
-              <iframe
-                id="iframe2"
-                class="rounded-3"
-                width="100%"
-                height="600"
-                src=""
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen
-              ></iframe>
-              <iframe
-                id="iframe3"
-                class="rounded-3"
-                width="100%"
-                height="600"
-                src=""
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen
-              ></iframe>
-
-              <div class="h3 text-solo-6 mx-4 pt-3">출연진들</div>
-              <div class="row text-center mb-3">
-                <div class="col">
-                  <img
-                    class="rounded-3"
-                    src="https://image.tmdb.org/t/p/original/nZdVry7lnUkE24PnXakok9okvL4.jpg"
-                    alt=""
-                    width="70%"
-                  />
-                </div>
-                <div class="col">
-                  <img
-                    class="rounded-3"
-                    src="https://image.tmdb.org/t/p/original/76sSLbMKLH80jlmMeqsHIIvlQgG.jpg"
-                    alt=""
-                    width="70%"
-                  />
-                </div>
-                <div class="col">
-                  <img
-                    class="rounded-3"
-                    src="https://image.tmdb.org/t/p/original/1K315wBQBvDBuZMlzoozuGsqFXZ.jpg"
-                    alt=""
-                    width="70%"
-                  />
-                </div>
-                <div class="col">
-                  <img
-                    class="rounded-3"
-                    src="https://image.tmdb.org/t/p/original/erkJijujhe48vhJ8iCEtVpNEeVn.jpg"
-                    alt=""
-                    width="70%"
-                  />
-                </div>
-                <div class="col">
-                  <img
-                    class="rounded-3"
-                    src="https://image.tmdb.org/t/p/original/koSwmmonFJiZDfwmZgdVA7I1aR.jpg"
-                    alt=""
-                    width="70%"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <header class="header">
       <!-- Navbar-->
       <nav
@@ -370,23 +193,15 @@
       <!-- /Navbar -->
     </header>
 
-    <section
-      class="hero-home"
-      style="
-        background-image: url('https://image.tmdb.org/t/p/original/rLb2cwF3Pazuxaj0sRXQ037tGI1.jpg');
-        background-size: cover;
-      "
-    >
-      <div class="container py-6 py-md-7 text-white z-index-20">
+    <section class="hero-home" style="background-color: #50a78b">
+      <div class="container py-3 py-md-3 text-white z-index-20">
         <div class="row">
-          <div class="col-xl-4 mt-5">
+          <div class="col-xl-6 mt-4">
             <div class="text-center text-lg-start">
-              <h1 class="display-4 fw-bold text-shadow">
-                <div>영화 검색은?</div>
-                <div>즐겨보는 영화</div>
-              </h1>
+              <h1 class="display-3 fw-bold text-shadow">공공 임대 주택</h1>
+              <h1 class="display-3 fw-bold text-shadow"></h1>
             </div>
-            <div class="p-lg-1 ps-lg-">
+            <div class="p-lg-1 ps-lg-4">
               <form action="#" class="search-bar row">
                 <div class="col d-flex align-items-center flex-grow-1">
                   <input
@@ -397,7 +212,7 @@
                   />
                 </div>
 
-                <div class="col-lg-3 px-0 d-grid flex-grow-0">
+                <div class="col-lg-4 px-0 d-grid flex-grow-0">
                   <button
                     class="btn btn-primary rounded-pill h-100"
                     type="submit"
@@ -408,58 +223,13 @@
               </form>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
-
-    <section>
-      <div class="container">
-        <div class="row text-center h3 text-solo-6 my-3">
-          <div class="col-5" onclick=""></div>
-          <div class="col-5" onclick=""></div>
-          <div class="col-1 text-end">
-            <div class="dropdown">
-              <a
-                class="btn btn-primary dropdown-toggle"
-                id="homeDropdownMenuLink"
-                href="index.html"
-                data-bs-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                조회수
-              </a>
-
-              <div class="dropdown-menu" aria-labelledby="homeDropdownMenuLink">
-                <a class="dropdown-item" href="index.html">Action</a>
-                <a class="dropdown-item" href="index.html">Another action</a>
-                <a class="dropdown-item" href="index.html"
-                  >Something else here</a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col-1 text-end">
-            <div class="dropdown">
-              <a
-                class="btn btn-primary dropdown-toggle"
-                id="homeDropdownMenuLink"
-                href="index.html"
-                data-bs-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                영화
-              </a>
-
-              <div class="dropdown-menu" aria-labelledby="homeDropdownMenuLink">
-                <a class="dropdown-item" href="index.html">Action</a>
-                <a class="dropdown-item" href="index.html">Another action</a>
-                <a class="dropdown-item" href="index.html"
-                  >Something else here</a
-                >
-              </div>
-            </div>
+          <div class="col text-center">
+            <img
+              class="figure position-relative"
+              src="img/kbs/petwalk_image.png"
+              style="width: 30rem; left: 6.25rem"
+              alt=""
+            />
           </div>
         </div>
       </div>
@@ -467,118 +237,316 @@
 
     <section>
       <div class="container">
-        <div class="row my-3">
-          <div class="col-lg-4 col-sm-6 mb-4 hover-animate">
-            <div class="card shadow border-0 h-100">
-              <img
-                src="https://image.tmdb.org/t/p/original/b7epV2cQZVIR4u5VZraDwD0AgiE.jpg"
-                alt=""
-                style="height: 100%"
-                onclick="openInfoModal('26dQpNBPC1U')"
-              />
+        <div class="row mt-5">
+          <div class="col-sm-3">
+            <div class="px-3 py-3 border border-1 rounded-3">
+              <form class="border-1 rounded-3" action="">
+                <label class="form-label">뭐가 좋을까?</label>
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        name="sports"
+                        id="soccer"
+                      />
+                      <label class="form-check-label" for="soccer">
+                        이거는
+                      </label>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        name="sports"
+                        id="pingPong"
+                      />
+                      <label class="form-check-label" for="pingPong">
+                        고민을
+                      </label>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        name="sports"
+                        id="footVolleyball"
+                      />
+                      <label class="form-check-label" for="footVolleyball">
+                        해봐야
+                      </label>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        name="sports"
+                        id="tennis"
+                      />
+                      <label class="form-check-label" for="tennis">
+                        할 것
+                      </label>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        name="sports"
+                        id="baseball"
+                      />
+                      <label class="form-check-label" for="baseball">
+                        같아요
+                      </label>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        name="sports"
+                        id="badminton"
+                      />
+                      <label class="form-check-label" for="badminton">
+                        그죠?
+                      </label>
+                    </div>
+                  </li>
+                </ul>
+                <label class="form-label">요금</label>
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        name="price"
+                        id="notfree"
+                      />
+                      <label class="form-check-label" for="notfree">
+                        유료
+                      </label>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        name="price"
+                        id="free"
+                      />
+                      <label class="form-check-label" for="free"> 무료 </label>
+                    </div>
+                  </li>
+                </ul>
+              </form>
             </div>
           </div>
-          <div class="col-lg-4 col-sm-6 mb-4 hover-animate">
-            <div class="card shadow border-0 h-100">
-              <img
-                src="https://image.tmdb.org/t/p/original/wXNihLltMCGR7XepN39syIlCt5X.jpg"
-                alt=""
-                onclick="openInfoModal('26dQpNBPC1U')"
-              />
+          <div class="col">
+            <div class="container">
+              <div class="btn-group">
+                <button
+                  type="button"
+                  class="btn btn-light dropdown-toggle border border-1 rounded-pill"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  서비스
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Separated link</a>
+                </div>
+              </div>
+              <div class="btn-group">
+                <button
+                  type="button"
+                  class="btn btn-light dropdown-toggle border border-1 rounded-pill"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  지역
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Separated link</a>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="col-lg-4 col-sm-6 mb-4 hover-animate">
-            <div class="card shadow border-0 h-100">
-              <img
-                src="https://image.tmdb.org/t/p/original/fBNl8kpFMz5ugi3RGYfenKctzjq.jpg"
-                alt=""
-                onclick="openInfoModal('26dQpNBPC1U')"
-              />
+
+            <div>
+              <a
+                class="text-decoration-none text-dark"
+                href="https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=13681"
+              >
+                <h6 class="mt-2 mb-1">
+                  2023년도 동해시 기존주택 등 매입임대주택 예비입주자 모집공고
+                </h6>
+                <div class="mb-2"></div>
+                <p class="text-muted text-sm">
+                  LH 콜센터 : 1600-1004 (평일 : 09:00 ~ 18:00)
+                </p>
+                <p class="text-muted text-sm">지역: 강원특별자치도</p>
+              </a>
             </div>
-          </div>
-        </div>
-        <div class="row my-3">
-          <div class="col-lg-4 col-sm-6 mb-4 hover-animate">
-            <div class="card shadow border-0 h-100">
-              <img
-                src="https://image.tmdb.org/t/p/original/muD7qu9UagO08dZBout1YXwdE6a.jpg"
-                alt=""
-                onclick="openInfoModal('26dQpNBPC1U')"
-              />
+            <div>
+              <a class="text-decoration-none text-dark" href="#">
+                <h6 class="mt-2 mb-1">[공지사항] 커뮤니티 제목입니다.</h6>
+                <div class="mb-2"></div>
+                <p class="text-muted text-sm">
+                  내용은 다음과 같습니다. 어쩌구 저쩌구 내용을 채우기 위해
+                  열심히 쓰는중입니다. 다들 화이팅!
+                </p>
+                <p class="text-muted text-sm">지역: 서울/마포구</p>
+              </a>
+              <div class="row">
+                <a class="col" href="thumbsUpCount++">
+                  <i class="fa fa-thumbs-up text-muted">
+                    좋아요 thumbsUpCount</i
+                  >
+                </a>
+                <a class="col" href="replyCount++">
+                  <i class="fa fa-comment-dots text-muted"> 댓글 replyCount</i>
+                </a>
+                <div class="text-muted text-sm text-end col">
+                  currentTime - createTime
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="col-lg-4 col-sm-6 mb-4 hover-animate">
-            <div class="card shadow border-0 h-100">
-              <img
-                src="https://image.tmdb.org/t/p/original/2BwerQH4tZvHU6zUlC77aDw7pLt.jpg"
-                alt=""
-                onclick="openInfoModal('26dQpNBPC1U')"
-              />
+            <div>
+              <a class="text-decoration-none text-dark" href="#">
+                <h6 class="mt-2 mb-1">[공지사항] 커뮤니티 제목입니다.</h6>
+                <div class="mb-2"></div>
+                <p class="text-muted text-sm">
+                  내용은 다음과 같습니다. 어쩌구 저쩌구 내용을 채우기 위해
+                  열심히 쓰는중입니다. 다들 화이팅!
+                </p>
+                <p class="text-muted text-sm">지역: 서울/마포구</p>
+              </a>
+              <div class="row">
+                <a class="col" href="thumbsUpCount++">
+                  <i class="fa fa-thumbs-up text-muted">
+                    좋아요 thumbsUpCount</i
+                  >
+                </a>
+                <a class="col" href="replyCount++">
+                  <i class="fa fa-comment-dots text-muted"> 댓글 replyCount</i>
+                </a>
+                <div class="text-muted text-sm text-end col">
+                  currentTime - createTime
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="col-lg-4 col-sm-6 mb-4 hover-animate">
-            <div class="card shadow border-0 h-100">
-              <img
-                src="https://image.tmdb.org/t/p/original/q2P63PsXosAg1s58Kkn5desmSyA.jpg"
-                alt=""
-                onclick="openInfoModal('26dQpNBPC1U')"
-              />
+            <div>
+              <a class="text-decoration-none text-dark" href="#">
+                <h6 class="mt-2 mb-1">[공지사항] 커뮤니티 제목입니다.</h6>
+                <div class="mb-2"></div>
+                <p class="text-muted text-sm">
+                  내용은 다음과 같습니다. 어쩌구 저쩌구 내용을 채우기 위해
+                  열심히 쓰는중입니다. 다들 화이팅!
+                </p>
+                <p class="text-muted text-sm">지역: 서울/마포구</p>
+              </a>
+              <div class="row">
+                <a class="col" href="thumbsUpCount++">
+                  <i class="fa fa-thumbs-up text-muted">
+                    좋아요 thumbsUpCount</i
+                  >
+                </a>
+                <a class="col" href="replyCount++">
+                  <i class="fa fa-comment-dots text-muted"> 댓글 replyCount</i>
+                </a>
+                <div class="text-muted text-sm text-end col">
+                  currentTime - createTime
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-        <div class="row my-3">
-          <div class="col-lg-4 col-sm-6 mb-4 hover-animate">
-            <div class="card shadow border-0 h-100">
-              <img
-                src="https://image.tmdb.org/t/p/original/cOkDlqNaJYa8zp4eAwcnCY7l1LR.jpg"
-                alt=""
-                onclick="openInfoModal('26dQpNBPC1U')"
-              />
+            <div>
+              <a class="text-decoration-none text-dark" href="#">
+                <h6 class="mt-2 mb-1">[공지사항] 커뮤니티 제목입니다.</h6>
+                <div class="mb-2"></div>
+                <p class="text-muted text-sm">
+                  내용은 다음과 같습니다. 어쩌구 저쩌구 내용을 채우기 위해
+                  열심히 쓰는중입니다. 다들 화이팅!
+                </p>
+                <p class="text-muted text-sm">지역: 서울/마포구</p>
+              </a>
+              <div class="row">
+                <a class="col" href="thumbsUpCount++">
+                  <i class="fa fa-thumbs-up text-muted">
+                    좋아요 thumbsUpCount</i
+                  >
+                </a>
+                <a class="col" href="replyCount++">
+                  <i class="fa fa-comment-dots text-muted"> 댓글 replyCount</i>
+                </a>
+                <div class="text-muted text-sm text-end col">
+                  currentTime - createTime
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="col-lg-4 col-sm-6 mb-4 hover-animate">
-            <div class="card shadow border-0 h-100">
-              <img
-                src="https://image.tmdb.org/t/p/original/8qOTi8VXvnuLH0jijMBCyygtV9d.jpg"
-                alt=""
-                onclick="openInfoModal('26dQpNBPC1U')"
-              />
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6 mb-4 hover-animate">
-            <div class="card shadow border-0 h-100">
-              <img
-                src="https://image.tmdb.org/t/p/original/uCAaaAQEDrTllYR4dtsEsfQa8We.jpg"
-                alt=""
-                onclick="openInfoModal('26dQpNBPC1U')"
-              />
+            <div>
+              <a class="text-decoration-none text-dark" href="#">
+                <h6 class="mt-2 mb-1">[공지사항] 커뮤니티 제목입니다.</h6>
+                <div class="mb-2"></div>
+                <p class="text-muted text-sm">
+                  내용은 다음과 같습니다. 어쩌구 저쩌구 내용을 채우기 위해
+                  열심히 쓰는중입니다. 다들 화이팅!
+                </p>
+                <p class="text-muted text-sm">지역: 서울/마포구</p>
+              </a>
+              <div class="row">
+                <a class="col" href="thumbsUpCount++">
+                  <i class="fa fa-thumbs-up text-muted">
+                    좋아요 thumbsUpCount</i
+                  >
+                </a>
+                <a class="col" href="replyCount++">
+                  <i class="fa fa-comment-dots text-muted"> 댓글 replyCount</i>
+                </a>
+                <div class="text-muted text-sm text-end col">
+                  currentTime - createTime
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="py-3">
-        <nav aria-label="Page navigation example ">
-          <ul
-            class="pagination pagination-template d-flex justify-content-center"
-          >
-            <li class="page-item">
-              <a class="page-link" href="#">
-                <i class="fa fa-angle-left"></i
-              ></a>
-            </li>
-            <li class="page-item active">
-              <a class="page-link" href="#">1</a>
-            </li>
-            <li class="page-item"><a class="page-link" href="#">2</a></li>
-            <li class="page-item"><a class="page-link" href="#">3</a></li>
-            <li class="page-item">
-              <a class="page-link" href="#">
-                <i class="fa fa-angle-right"></i
-              ></a>
-            </li>
-          </ul>
-        </nav>
-      </div>
+
+      <!-- page button-->
+      <nav aria-label="Page navigation example ">
+        <ul
+          class="pagination pagination-template d-flex justify-content-center my-5"
+        >
+          <li class="page-item">
+            <a class="page-link" href="#"> <i class="fa fa-angle-left"></i></a>
+          </li>
+          <li class="page-item active"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#"> <i class="fa fa-angle-right"></i></a>
+          </li>
+        </ul>
+      </nav>
     </section>
 
     <footer class="position-relative z-index-10 d-print-none">
@@ -772,7 +740,5 @@
     </script>
     <!-- Main Theme JS file    -->
     <script src="js/theme.js"></script>
-    <script src="js/kbs.js"></script>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   </body>
 </html>
