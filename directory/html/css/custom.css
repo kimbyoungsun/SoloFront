@@ -1,1 +1,15 @@
 /* your styles go here */
+
+.search-container {
+    display: grid;
+    grid-template-columns: 1fr auto; /* 1fr은 input 요소가 차지하는 비율을 의미하며, auto는 버튼의 크기만큼을 의미합니다. */
+    gap: 10px; /* 요소들 사이의 간격을 조정합니다. */
+    width: 100%; /* 부모 요소의 너비에 따라 크기가 조정되도록 합니다. */
+  }
+  
+.padding-all {
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+}
